@@ -1,0 +1,286 @@
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+	pre, a, address, big, cite, code, del, em, font, img, ins, small,
+	strong, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form,
+	label, legend {
+	margin: 0px;
+	padding: 0px;
+}
+
+talbe {
+	width: 100%;
+}
+
+th {
+	height: 50px;
+}
+
+td {
+	text-align: center;
+	height: 40px;
+	padding: 5px;
+}
+
+.fr {
+	float: right;
+}
+
+body {
+	font: 18px/150% Arial, Verdana, "宋体";
+	color: #666;
+}
+
+.pagin .prev, .pagin .prev-disabled {
+	border-radius: 2px;
+}
+
+.pagin .prev, .pagin .prev-disabled {
+	padding-left: 12px;
+}
+
+.pagin .current, .pagin .current:link, .pagin .current:visited {
+	color: #F60;
+	font-weight: 700;
+}
+
+.pagin a:link, .pagin a:visited {
+	border-radius: 2px;
+}
+
+.infoTitle {
+	font-size: 20px;
+	font-weight: 700;
+	color: #0080ff;
+	background: none repeat scroll 0% 0% #bfbfc1;
+}
+
+.main td {
+	height: 30px;
+	border: #CCCCCC 1px solid;
+}
+
+.main2 td {
+	height: 60px;
+	border: #CCCCCC 1px solid;
+}
+
+.simitd {
+	width: 8%;
+}
+
+.colorSim {
+	color: lightgreen text-decoration: none;
+	font-weight: bold;
+}
+
+.colorSim:visited {
+	color: #3399CC;
+	text-decoration: none;
+	font-weight: bold;
+} /*访问过的链接设置*/
+.colorSim:hover {
+	color: #CF0000;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+.color {
+	color: #3399CC;
+	text-decoration: none;
+	font-weight: bold;
+} /*链接设置*/
+.color:visited {
+	color: #3399CC;
+	text-decoration: none;
+	font-weight: bold;
+} /*访问过的链接设置*/
+.color:hover {
+	color: #CF0000;
+	text-decoration: underline;
+	font-weight: bold;
+} /*鼠标放上的链接设置*/
+.color2 {
+	color: #3399CD;
+	text-decoration: none;
+	font-weight: bold;
+} /*链接设置*/
+.color2:visited {
+	color: #3399CD;
+	text-decoration: none;
+	font-weight: bold;
+} /*访问过的链接设置*/
+.color2:hover {
+	color: #CF0001;
+	text-decoration: underline;
+	font-weight: bold;
+} /*鼠标放上的链接设置*/
+.search {
+	width: 1000px;
+	height: 50px;
+	margin: 20px auto;
+	float: left;
+}
+
+.temp {
+	padding-right: 900px;
+}
+
+.search .i-search-before {
+	width: 60%;
+	height: 30px;
+	margin: 0px auto;
+	float: left;
+}
+
+.search .i-search {
+	width: 39%;
+	height: 30px;
+	margin: 0px auto;
+	border: 3px solid #E4393C;
+	float: left;
+}
+
+.search .i-search .search-bar {
+	width: 70%;
+	height: 30px;
+	font-size: 20px;
+	float: left;
+	color: black;
+	border: 1px solid #E3E3E3;
+}
+
+.search .i-search .search-submit {
+	width: 30%;
+	height: 30px;
+	background: none repeat scroll 0% 0% #E4393C;
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFF;
+	margin: 0px auto;
+	border: 0px;
+	float: left;
+}
+
+.nextClass {
+	width: 50%;
+	font-size: 14px;
+	font-weight: 700;
+	color: #ff0000;
+	background: none repeat scroll 0% 0% #c0c0c0;
+}
+
+.pageCountInfo {
+	float: left;
+	width: 40%;
+	text-align: center;
+}
+
+.subnav {
+	border-collapse: collapse;
+	font-family: Tahoma, Verdana;
+	font-size: 10pt;
+	cursor: default;
+}
+
+.subnav   li {
+	float: left;
+	width: 330px;
+	border: solid 2px #C5D3E6;
+}
+
+.subnav   li .li1 {
+	float: left;
+	width: 150px;
+	border: solid 2px #C5D3E6;
+}
+
+.subnav   li .li2 {
+	float: left;
+	width: 150px;
+	border: solid 2px #C5D3E6;
+}
+
+.li0 {
+	float: left;
+	width: 30px;
+	border: solid 1px;
+	text-align: center;
+}
+
+.li2 a, input {
+	float: left;
+	width: 50px;
+}
+
+.one {
+	text-align: center;
+	position: relative;
+	top: 30%;
+}
+
+.two {
+	display: none;
+	height: 50%;
+	z-index: 999;
+	text-align: center;
+	position: relative;
+	top: 50%;
+	border: 1px solid #ff0000;
+	background: #c0c0c0;
+	margin: 0% auto;
+}
+
+.usedClass {
+	width: 47%;
+	float: left;
+	height: 50%;
+	margin: 0px auto;
+	border: 3px solid #c94536;
+	float: left;
+}
+
+.usedClass2 {
+	width: 47%;
+	float: left;
+	height: 100%;
+	float: left;
+	margin: 0px auto;
+	border: 1px solid #c94536;
+	font-family: Tahoma, Verdana;
+	font-size: 10pt;
+}
+
+.mainForm {
+	width: 400px;
+	height: 452px;
+	position: absolute;
+	margin-top: -50px;
+	margin-left: -100px;
+	border: 1px solid red;
+	line-height: 30px;
+	font-size: 16px;
+	text-align: center;
+	display: none;
+	background-image: url(../img/background.jpg);
+	background-color: #ccfdcf;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.bodyBack {
+	background-color: #d9feff;
+}
+
+.pageEnd {
+	width: 100%;
+	height: 20px;
+	float:left;
+	background-image: url(../img/background1.jpg);
+	background-size: contain;
+}
+
+
+.divcss1{ background:#85857a;}
+.divcss2{ background:#989b64;}
+.divcss3{ background:#b6b049;}
+.divcss4{ background:#e6db1a;}
+.divcss5{ background:#f8a407;}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+<struts>
+	<constant name="struts.i18n.encoding" value="UTF-8"/> 
+    <constant name="struts.action.extension" value=",do,action,jsp"/>  
+    <constant name="struts.devMode" value="true" />
+	<constant name="struts.ui.theme" value="simple" />
+	<include file="struts-*.xml"></include>
+	<!-- 
+	<package name="login" extends="struts-default">
+	<action name="index" 
+				class="com.demo.action.Test"
+				method="index">
+			<result name="success">index.jsp</result>
+		</action>
+	</package>
+	 -->
+	 <package name="recommand" namespace="/recommand" extends="struts-default">
+		<action name="getData" 
+				class="com.action.MethodAction"
+				method="getData">
+			<result name="success">brandRecommand.jsp</result> 
+			<!--<result name="success">/login_result.jsp</result> -->
+			<result name="error"></result>
+		</action>
+		<action name="delete" class="com.action.MethodAction" method="delete">
+		    <result name="success">brandRecommand.jsp</result> 
+			<result name="error"></result>
+		</action>
+	</package>
+	
+</struts>
